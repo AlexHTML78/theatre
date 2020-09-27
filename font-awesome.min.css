@@ -1,0 +1,50 @@
+@font-face {
+    font-family: font-awesome;
+    src: url(fonts/font-awesome.eot?62996788);
+    src: url(fonts/font-awesome.eot?62996788#iefix) format('embedded-opentype'), url(fonts/font-awesome.woff2?62996788) format('woff2'), url(fonts/font-awesome.woff?62996788) format('woff'), url(fonts/font-awesome.ttf?62996788) format('truetype'), url(fonts/font-awesome.svg?62996788#font-awesome) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+[class*=" icon-"]:before,
+[class^=icon-]:before {
+    font-family: font-awesome;
+    font-style: normal;
+    font-weight: 400;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-eye:before {
+    content: '\e800'
+}
+
+.icon-search:before {
+    content: '\e801'
+}
+
+.icon-facebook:before {
+    content: '\f09a'
+}
+
+.icon-youtube:before {
+    content: '\f16a'
+}
+
+.icon-instagram:before {
+    content: '\f16d'
+}
+
+.icon-vkontakte:before {
+    content: '\f189'
+}

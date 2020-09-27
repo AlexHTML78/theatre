@@ -1,0 +1,41 @@
+@media screen and (min-width:1360px){.wrapper .main-section{width:100%}
+.wrapper .main-section .row .theatre-now{min-width:674px;width:100%}
+.wrapper .main-section .row .wrap{min-width:510px;width:100%}
+.wrapper .main-section .row .theatre-history{min-width:406px;width:100%}
+.wrapper .main-section .row .managers{min-width:570px;width:100%}
+.page-footer{width:100%}
+}
+@media screen and (max-width:800px) and (min-width:426px){.wrapper .main-section,.wrapper .main-section .row{-webkit-box-orient:vertical;-webkit-box-direction:normal}
+.wrapper{height:1510px}
+.wrapper .sidebar{height:100%;position:relative}
+.wrapper .sidebar .tickets{position:absolute;bottom:40px}
+.wrapper .main-section{width:100%;min-height:100%;-ms-flex-direction:column;flex-direction:column}
+.wrapper .main-section .row{-ms-flex-direction:column;flex-direction:column}
+.wrapper .main-section .row .theatre-now,.wrapper .main-section .row .wrap{width:100%}
+.wrapper .main-section .row .wrap .documents,.wrapper .main-section .row .wrap .press{margin:0}
+.wrapper .main-section .row .theatre-history{width:100%;margin:0}
+.wrapper .main-section .row .managers{margin:0;width:100%}
+.page-footer .footer-wrap .collumn:first-child{display:none}
+}
+@media screen and (max-width:425px){.page-footer,.wrapper,.wrapper .main-section .row{-webkit-box-orient:vertical;-webkit-box-direction:normal}
+.wrapper{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column}
+.wrapper .sidebar{width:100%;position:relative}
+.wrapper .sidebar .logo img{display:block;margin:0 auto;padding-top:20px}
+.wrapper .sidebar .main-menu{-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:50px}
+.wrapper .sidebar .main-menu .main-menu__menu-item{list-style:none}
+.wrapper .sidebar .main-menu .main-menu__menu-item .main-menu__link{font-size:22px}
+.wrapper .sidebar .main-menu .main-menu__menu-item .main-menu__link::before{display:none}
+.wrapper .sidebar .tickets{width:100%;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center;margin:0 auto;position:absolute;bottom:50px}
+.wrapper .main-section{max-width:425px;min-height:1500px}
+.wrapper .main-section .row{-ms-flex-direction:column;flex-direction:column}
+.wrapper .main-section .row .theatre-now{max-width:425px;width:100%}
+.wrapper .main-section .row .managers,.wrapper .main-section .row .theatre-history{max-width:425px;width:100%;margin:0}
+.wrapper .main-section .row .wrap{max-width:100%}
+.wrapper .main-section .row .wrap .documents,.wrapper .main-section .row .wrap .press{max-width:425px;width:100%;margin:0}
+.page-footer{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-direction:column;flex-direction:column;height:800px}
+.page-footer .footer-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;padding:0 20px;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.page-footer .footer-wrap .collumn .special-btns,.page-footer .footer-wrap .collumn:first-child{display:none}
+.page-footer .footer-wrap .collumn{width:50%}
+.page-footer .footer-wrap .collumn .social-btns{-ms-flex-wrap:wrap;flex-wrap:wrap}
+.page-footer .footer-copyright .footer-copyright__text{font-size:10px}
+}
